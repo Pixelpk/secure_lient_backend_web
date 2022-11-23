@@ -1,0 +1,27 @@
+#form-section{
+    padding: 3rem 1rem;
+}
+#form-section .container{
+    background-color: #eee;
+    border-radius: 1rem;
+    padding: 2rem 1rem;
+}
+.error {
+    color: red;
+}
+.m-signature-pad--body canvas {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 250px;
+    border: 1px solid #CCCCCC;
+}
+@media print {
+    #printPageButton {
+        display: none;
+    }
+    .print {
+        display: none;
+    }
+}
