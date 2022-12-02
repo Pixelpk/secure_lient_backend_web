@@ -36,94 +36,94 @@
 
                         <div class="col-md-6 mb-3">
                             <label class="form-label">Email:</label>
-                            <input type="email" class="form-control" placeholder="Email" name="email" required autofocus>
+                            <input type="email" class="form-control" placeholder="Email" name="email"  autofocus>
                         </div>
                         <div class="col-md-6 mb-3">
                             <label class="form-label">Mobile:</label>
-                            <input type="tel" class="form-control" placeholder="+97000000000" name="mobile" required>
+                            <input type="tel" class="form-control" placeholder="+97000000000" name="mobile" >
                         </div>
                         <div class="row mb-3">
                             <label class="col-sm-2 col-form-label">Name of Owner:</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" placeholder="Name of Owner" name="owner_name" required autofocus>
+                                <input type="text" class="form-control" placeholder="Name of Owner" name="owner_name"  autofocus>
                             </div>
                         </div>
                         <div class="row mb-3">
                             <label class="col-sm-2 col-form-label">Owner Phone:</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" placeholder="Owner Phone" name="owner_phone" required>
+                                <input type="text" class="form-control" placeholder="Owner Phone" name="owner_phone" >
                             </div>
                         </div>
                         <div class="row mb-3">
                             <label class="col-sm-2 col-form-label">Date:</label>
                             <div class="col-sm-10">
-                                <input type="date" class="form-control" placeholder="Date" name="owner_date" required>
+                                <input type="date" class="form-control" placeholder="Date" name="owner_date" >
                             </div>
                         </div>
                         <div class="row mb-3">
                             <label class="col-sm-2 col-form-label">Owner Address:</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" placeholder="Owner Address" name="owner_address" required>
+                                <input type="text" class="form-control" placeholder="Owner Address" name="owner_address" >
                             </div>
                         </div>
                         <div class="row mb-3">
                             <label class="col-sm-2 col-form-label">Job Name:</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" placeholder="Job Name" name="job_name" required>
+                                <input type="text" class="form-control" placeholder="Job Name" name="job_name" >
                             </div>
                         </div>
                         <div class="row mb-3">
                             <label class="col-sm-2 col-form-label">Job No:</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" placeholder="Job No" name="job_no" required>
+                                <input type="text" class="form-control" placeholder="Job No" name="job_no" >
                             </div>
                         </div>
                         <div class="row mb-3">
                             <label class="col-sm-2 col-form-label">Owner City:</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" placeholder="Owner City" name="owner_city" required>
+                                <input type="text" class="form-control" placeholder="Owner City" name="owner_city" >
                             </div>
                         </div>
                         <div class="row mb-3">
                             <label class="col-sm-2 col-form-label">Owner State:</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" placeholder="Owner State" name="owner_state" required>
+                                <input type="text" class="form-control" placeholder="Owner State" name="owner_state" >
                             </div>
                         </div>
                         <div class="row mb-3">
                             <label class="col-sm-2 col-form-label">Other Address:</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" placeholder="Other Address" name="other_address" required>
+                                <input type="text" class="form-control" placeholder="Other Address" name="other_address" >
                             </div>
                         </div>
                         <div class="row mb-3">
                             <label class="col-sm-2 col-form-label">Existing Contract No:</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" placeholder="Existing Contract No" name="existing_contract_no" required>
+                                <input type="text" class="form-control" placeholder="Existing Contract No" name="existing_contract_no" >
                             </div>
                         </div>
                         <div class="row mb-3">
                             <label class="col-sm-2 col-form-label">Existing Contract Date:</label>
                             <div class="col-sm-10">
-                                <input type="date" class="form-control" placeholder="Existing Contract Date" name="date_of_existing_contract" required>
+                                <input type="date" class="form-control" placeholder="Existing Contract Date" name="date_of_existing_contract" >
                             </div>
                         </div>
                         <div class="row mb-3">
                             <label class="col-sm-2 col-form-label">City:</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" placeholder="City" name="other_city" required>
+                                <input type="text" class="form-control" placeholder="City" name="other_city" >
                             </div>
                         </div>
                         <div class="row mb-3">
                             <label class="col-sm-2 col-form-label">State:</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" placeholder="State" name="other_state" required>
+                                <input type="text" class="form-control" placeholder="State" name="other_state" >
                             </div>
                         </div>
                         <div class="row mb-3">
                             <label class="col-sm-2 col-form-label">Description:</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" placeholder="We hereby agree to the specified changes and charges listed below" name="note" required>
+                                <input type="text" class="form-control" placeholder="We hereby agree to the specified changes and charges listed below" name="note" >
                             </div>
                         </div>
                     </div>
@@ -131,13 +131,13 @@
                     <div class="row mb-3">
                         <label class="col-sm-4 col-form-label">Additional charge for abouve work is: $</label>
                         <div class="col-sm-8">
-                            <input type="text" class="form-control" placeholder="Additional Charge for abouve work is $" name="payment" required>
+                            <input type="text" class="form-control" placeholder="Additional Charge for abouve work is $" name="payment" >
                         </div>
                     </div>
                     <div class="row mb-3">
                         <label class="col-sm-4 col-form-label">Payment to be made ad follows:</label>
                         <div class="col-sm-8">
-                            <input type="text" class="form-control" placeholder="Payment to be made ad follows" name="payment_note" required>
+                            <input type="text" class="form-control" placeholder="Payment to be made ad follows" name="payment_note" >
                         </div>
                     </div>
 
@@ -160,13 +160,13 @@
                     <div class="row mb-3">
                         <label class="col-sm-2 col-form-label">Date of Signature:</label>
                         <div class="col-sm-10">
-                            <input type="date" class="form-control" placeholder="Date of Signature" name="contractor_signed_date" required>
+                            <input type="date" class="form-control" placeholder="Date of Signature" name="contractor_signed_date" >
                         </div>
                     </div>
                     <div class="row mb-3">
                         <label class="col-sm-2 col-form-label">Change Order No:</label>
                         <div class="col-sm-10">
-                            <input type="text" class="form-control" placeholder="Change Order No" name="change_order_no" required>
+                            <input type="text" class="form-control" placeholder="Change Order No" name="change_order_no" >
                         </div>
                     </div>
 
@@ -187,23 +187,23 @@
     <script src="{{ asset('assets/js/signature_pad.js') }}"></script>
 
     <script>
-        $('form').validate();
+        //$('form').validate();
         $(document).ready(function() {
             $('.select2').select2();
         });
 
-        $("form").submit(function (e) {
-            if(signaturePad.isEmpty()){
-                alert("Please sign the document");
-                e.preventDefault();
-                return false;
-            }
-            if(signaturePad2.isEmpty()){
-                alert("Please sign the document");
-                e.preventDefault();
-                return false;
-            }
-        });
+        //$("form").submit(function (e) {
+        //if(signaturePad.isEmpty()){
+        //alert("Please sign the document");
+        //e.preventDefault();
+        //return false;
+        //}
+        //if(signaturePad2.isEmpty()){
+        //alert("Please sign the document");
+        //e.preventDefault();
+        //return false;
+        //}
+        //});
     </script>
 
     <script type="text/javascript">

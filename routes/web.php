@@ -75,3 +75,4 @@ Route::get('download-estimate/{estimateid}/{userid}', 'Estimate\EstimateControll
 
 Route::get('/payment/{total}/{id}', 'PaymentController@index')->name('payment');
 Route::post('/payment-send', 'PaymentController@sendPayment')->name('payment-send');
+

@@ -205,7 +205,7 @@ class InvoiceController extends Controller
             'subtotal' => $request->subtotal,
             'tax' => $request->tax,
             'discount' => $request->discount,
-            'total' => $request->total,
+            'total' => $request->total ?? 0,
             'date' => $request->date,
             'notes' => $request->notes
             // 'forms' => json_encode($request->forms)

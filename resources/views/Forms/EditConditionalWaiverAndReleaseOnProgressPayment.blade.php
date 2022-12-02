@@ -43,11 +43,11 @@
 
                         <div class="col-md-6 mb-3">
                             <label class="form-label">Email:</label>
-                            <input type="email" class="form-control" placeholder="Email" name="email" value="{{ $form3->email }}" required autofocus>
+                            <input type="email" class="form-control" placeholder="Email" name="email" value="{{ $form3->email }}"  autofocus>
                         </div>
                         <div class="col-md-6 mb-3">
                             <label class="form-label">Mobile:</label>
-                            <input type="tel" class="form-control" placeholder="+97000000000" name="mobile" value="{{ $form3->mobile }}" required>
+                            <input type="tel" class="form-control" placeholder="+97000000000" name="mobile" value="{{ $form3->mobile }}" >
                         </div>
                         <div class="d-grid mb-3">
                             <h4 class="text-center">Identifying Information</h4>
@@ -55,31 +55,31 @@
                         <div class="row mb-3">
                             <label class="col-sm-2 col-form-label">Name of Claimant:</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" placeholder="Name of Claimant" name="claimant_name" value="{{ $form3->claimant_name }}" required autofocus>
+                                <input type="text" class="form-control" placeholder="Name of Claimant" name="claimant_name" value="{{ $form3->claimant_name }}"  autofocus>
                             </div>
                         </div>
                         <div class="row mb-3">
                             <label class="col-sm-2 col-form-label">Name of Customer:</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" placeholder="Name of Customer" name="customer_name" value="{{ $form3->customer_name }}" required>
+                                <input type="text" class="form-control" placeholder="Name of Customer" name="customer_name" value="{{ $form3->customer_name }}" >
                             </div>
                         </div>
                         <div class="row mb-3">
                             <label class="col-sm-2 col-form-label">Job Location:</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" placeholder="Job Location" name="job_location" value="{{ $form3->job_location }}" required>
+                                <input type="text" class="form-control" placeholder="Job Location" name="job_location" value="{{ $form3->job_location }}" >
                             </div>
                         </div>
                         <div class="row mb-3">
                             <label class="col-sm-2 col-form-label">Owner:</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" placeholder="Owner" name="owner" value="{{ $form3->owner }}" required>
+                                <input type="text" class="form-control" placeholder="Owner" name="owner" value="{{ $form3->owner }}" >
                             </div>
                         </div>
                         <div class="row mb-3">
                             <label class="col-sm-2 col-form-label">Through Date:</label>
                             <div class="col-sm-10">
-                                <input type="date" class="form-control" placeholder="Through Date" name="through_date" value="{{ $form3->through_date }}" required>
+                                <input type="date" class="form-control" placeholder="Through Date" name="through_date" value="{{ $form3->through_date }}" >
                             </div>
                         </div>
                     </div>
@@ -100,19 +100,19 @@
                     <div class="row mb-3">
                         <label class="col-sm-2 col-form-label">Maker of Check:</label>
                         <div class="col-sm-10">
-                            <input type="text" class="form-control" placeholder="Maker of Check" name="check_owner" value="{{ $form3->check_owner }}" required>
+                            <input type="text" class="form-control" placeholder="Maker of Check" name="check_owner" value="{{ $form3->check_owner }}" >
                         </div>
                     </div>
                     <div class="row mb-3">
                         <label class="col-sm-2 col-form-label">Amount of Check: $</label>
                         <div class="col-sm-10">
-                            <input type="text" class="form-control" placeholder="Amount of Check $" name="check_amount" value="{{ $form3->check_amount }}" required>
+                            <input type="text" class="form-control" placeholder="Amount of Check $" name="check_amount" value="{{ $form3->check_amount }}" >
                         </div>
                     </div>
                     <div class="row mb-3">
                         <label class="col-sm-2 col-form-label">Check Payable to:</label>
                         <div class="col-sm-10">
-                            <input type="text" class="form-control" placeholder="Check Payable to" name="check_payable_to" value="{{ $form3->check_payable_to }}" required>
+                            <input type="text" class="form-control" placeholder="Check Payable to" name="check_payable_to" value="{{ $form3->check_payable_to }}" >
                         </div>
                     </div>
 
@@ -129,13 +129,13 @@
                                 <div class="row mb-3">
                                     <label class="col-sm-2 col-form-label">Date(s) of waiver and release:</label>
                                     <div class="col-sm-10">
-                                        <input type="date" class="form-control" placeholder="Date(s) of waiver and release" name="date_of_waiver" value="{{ $form3->date_of_waiver }}" required>
+                                        <input type="date" class="form-control" placeholder="Date(s) of waiver and release" name="date_of_waiver" value="{{ $form3->date_of_waiver }}" >
                                     </div>
                                 </div>
                                 <div class="row mb-3">
                                     <label class="col-sm-2 col-form-label">Amount(s) of unpaid progress payment(s): $</label>
                                     <div class="col-sm-10">
-                                        <input type="text" class="form-control" placeholder="Amount(s) of unpaid progress payment(s) $" name="amount_of_unpaid_progress_payments" value="{{ $form3->amount_of_unpaid_progress_payments }}" required>
+                                        <input type="text" class="form-control" placeholder="Amount(s) of unpaid progress payment(s) $" name="amount_of_unpaid_progress_payments" value="{{ $form3->amount_of_unpaid_progress_payments }}" >
                                     </div>
                                 </div>
                             </li>
@@ -158,7 +158,7 @@
                     <div class="row mb-3">
                         <label class="col-sm-2 col-form-label">Claimant's Title:</label>
                         <div class="col-sm-10">
-                            <input type="text" class="form-control" placeholder="Claimant's Title" name="claimant_title" value="{{ $form3->claimant_title }}" required>
+                            <input type="text" class="form-control" placeholder="Claimant's Title" name="claimant_title" value="{{ $form3->claimant_title }}" >
                         </div>
                     </div>
                     <div class="row mb-3">
@@ -185,18 +185,18 @@
     <script src="{{ asset('assets/js/signature_pad.js') }}"></script>
 
     <script>
-        $('form').validate();
+        //$('form').validate();
         $(document).ready(function() {
             $('.select2').select2();
         });
 
-        $("form").submit(function (e) {
-            if(signaturePad.isEmpty()){
-                alert("Please sign the document");
-                e.preventDefault();
-                return false;
-            }
-        });
+        //$("form").submit(function (e) {
+            //if(signaturePad.isEmpty()){
+                //alert("Please sign the document");
+                //e.preventDefault();
+                //return false;
+            //}
+        //});
     </script>
 
     <script type="text/javascript">

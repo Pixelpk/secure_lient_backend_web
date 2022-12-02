@@ -157,23 +157,23 @@
     <script src="{{ asset('assets/js/signature_pad.js') }}"></script>
 
     <script>
-        $('form').validate();
+        //$('form').validate();
         $(document).ready(function() {
             $('.select2').select2();
         });
 
-        $("form").submit(function (e) {
-            if(signaturePad.isEmpty()){
-                alert("Please sign the document");
-                e.preventDefault();
-                return false;
-            }
-            if(signaturePad2.isEmpty()){
-                alert("Please sign the document");
-                e.preventDefault();
-                return false;
-            }
-        });
+        //$("form").submit(function (e) {
+        //if(signaturePad.isEmpty()){
+        //alert("Please sign the document");
+        //e.preventDefault();
+        //return false;
+        //}
+        //if(signaturePad2.isEmpty()){
+        //alert("Please sign the document");
+        //e.preventDefault();
+        //return false;
+        //}
+        //});
     </script>
 
     <script type="text/javascript">

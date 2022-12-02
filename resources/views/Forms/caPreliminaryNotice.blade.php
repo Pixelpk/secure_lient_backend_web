@@ -46,11 +46,11 @@
                     {{ csrf_field() }}
                     <div class="col-md-6 mb-3">
                         <label class="form-label">Email:</label>
-                        <input type="email" class="form-control" placeholder="Email" name="email" required autofocus>
+                        <input type="email" class="form-control" placeholder="Email" name="email"  autofocus>
                     </div>
                     <div class="col-md-6 mb-3">
                         <label class="form-label">Mobile:</label>
-                        <input type="tel" class="form-control" placeholder="+97000000000" name="mobile" required>
+                        <input type="tel" class="form-control" placeholder="+97000000000" name="mobile" >
                     </div>
                     <h3>To</h3>
                     <div class="row mt-3">
@@ -60,22 +60,22 @@
                             </div>
                             <div class="mb-3">
                                 <label class="form-label">Name:</label>
-                                <input type="text" class="form-control" placeholder="Name" name="owner_name" required>
+                                <input type="text" class="form-control" placeholder="Name" name="owner_name" >
                             </div>
                             <div class="mb-3">
                                 <label class="form-label">Address:</label>
-                                <input type="text" class="form-control" placeholder="Address" name="owner_address" required>
+                                <input type="text" class="form-control" placeholder="Address" name="owner_address" >
                             </div>
                             <div class="row d-flex align-items-center">
                                 <div class="col-md-6">
                                     <div class="mb-3">
                                         <label class="form-label">City:</label>
-                                        <input type="text" class="form-control col-md-3" placeholder="City" name="owner_city" required>
+                                        <input type="text" class="form-control col-md-3" placeholder="City" name="owner_city" >
                                     </div>
                                 </div>
                                 <div class="col-md-3">
                                     <div class="mb-3 mt-4">
-                                        <select class="form-select select2" name="owner_state" required>
+                                        <select class="form-select select2" name="owner_state" >
                                             <option value="" selected>Select State</option>
                                             <option value="Alabama">Alabama</option>
                                             <option value="Alaska">Alaska</option>
@@ -134,7 +134,7 @@
                                 <div class="col-md-3">
                                     <div class="mb-3">
                                         <label class="form-label">Zip:</label>
-                                        <input type="text" class="form-control" placeholder="Zip" name="owner_zip" required>
+                                        <input type="text" class="form-control" placeholder="Zip" name="owner_zip" >
                                     </div>
                                 </div>
                             </div>
@@ -145,22 +145,22 @@
                             </div>
                             <div class="mb-3">
                                 <label class="form-label">Name:</label>
-                                <input type="text" class="form-control" placeholder="Name" name="direct_contractor_name" required>
+                                <input type="text" class="form-control" placeholder="Name" name="direct_contractor_name" >
                             </div>
                             <div class="mb-3">
                                 <label class="form-label">Address:</label>
-                                <input type="text" class="form-control" placeholder="Address" name="direct_contractor_address" required>
+                                <input type="text" class="form-control" placeholder="Address" name="direct_contractor_address" >
                             </div>
                             <div class="row d-flex align-items-center">
                                 <div class="col-md-6">
                                     <div class="mb-3">
                                         <label class="form-label">City:</label>
-                                        <input type="text" class="form-control col-md-3" placeholder="City" name="direct_contractor_city" required>
+                                        <input type="text" class="form-control col-md-3" placeholder="City" name="direct_contractor_city" >
                                     </div>
                                 </div>
                                 <div class="col-md-3">
                                     <div class="mb-3 mt-4">
-                                        <select class="form-select select2" name="direct_contractor_state" required>
+                                        <select class="form-select select2" name="direct_contractor_state" >
                                             <option value="" selected>Select State</option>
                                             <option value="Alabama">Alabama</option>
                                             <option value="Alaska">Alaska</option>
@@ -219,7 +219,7 @@
                                 <div class="col-md-3">
                                     <div class="mb-3">
                                         <label class="form-label">Zip:</label>
-                                        <input type="text" class="form-control" placeholder="Zip" name="direct_contractor_zip" required>
+                                        <input type="text" class="form-control" placeholder="Zip" name="direct_contractor_zip" >
                                     </div>
                                 </div>
                             </div>
@@ -230,22 +230,22 @@
                             </div>
                             <div class="mb-3">
                                 <label class="form-label">Name:</label>
-                                <input type="text" class="form-control" placeholder="Name" name="contractor_leader_name" required>
+                                <input type="text" class="form-control" placeholder="Name" name="contractor_leader_name" >
                             </div>
                             <div class="mb-3">
                                 <label class="form-label">Address:</label>
-                                <input type="text" class="form-control" placeholder="Address" name="contractor_leader_address" required>
+                                <input type="text" class="form-control" placeholder="Address" name="contractor_leader_address" >
                             </div>
                             <div class="row d-flex align-items-center">
                                 <div class="col-md-6">
                                     <div class="mb-3">
                                         <label class="form-label">City:</label>
-                                        <input type="text" class="form-control col-md-3" placeholder="City" name="contractor_leader_city" required>
+                                        <input type="text" class="form-control col-md-3" placeholder="City" name="contractor_leader_city" >
                                     </div>
                                 </div>
                                 <div class="col-md-3">
                                     <div class="mb-3 mt-4">
-                                        <select class="form-select select2" name="contractor_leader_state" required>
+                                        <select class="form-select select2" name="contractor_leader_state" >
                                             <option value="" selected>Select State</option>
                                             <option value="Alabama">Alabama</option>
                                             <option value="Alaska">Alaska</option>
@@ -304,7 +304,7 @@
                                 <div class="col-md-3">
                                     <div class="mb-3">
                                         <label class="form-label">Zip:</label>
-                                        <input type="text" class="form-control" placeholder="Zip" name="contractor_leader_zip" required>
+                                        <input type="text" class="form-control" placeholder="Zip" name="contractor_leader_zip" >
                                     </div>
                                 </div>
                             </div>
@@ -315,22 +315,22 @@
                             </div>
                             <div class="mb-3">
                                 <label class="form-label">Name:</label>
-                                <input type="text" class="form-control" placeholder="Name" name="other_name" required>
+                                <input type="text" class="form-control" placeholder="Name" name="other_name" >
                             </div>
                             <div class="mb-3">
                                 <label class="form-label">Address:</label>
-                                <input type="text" class="form-control" placeholder="Address" name="other_address" required>
+                                <input type="text" class="form-control" placeholder="Address" name="other_address" >
                             </div>
                             <div class="row d-flex align-items-center">
                                 <div class="col-md-6">
                                     <div class="mb-3">
                                         <label class="form-label">City:</label>
-                                        <input type="text" class="form-control col-md-3" placeholder="City" name="other_city" required>
+                                        <input type="text" class="form-control col-md-3" placeholder="City" name="other_city" >
                                     </div>
                                 </div>
                                 <div class="col-md-3">
                                     <div class="mb-3 mt-4">
-                                        <select class="form-select select2" name="other_state" required>
+                                        <select class="form-select select2" name="other_state" >
                                             <option value="" selected>Select State</option>
                                             <option value="Alabama">Alabama</option>
                                             <option value="Alaska">Alaska</option>
@@ -389,7 +389,7 @@
                                 <div class="col-md-3">
                                     <div class="mb-3">
                                         <label class="form-label">Zip:</label>
-                                        <input type="text" class="form-control" placeholder="Zip" name="other_zip" required>
+                                        <input type="text" class="form-control" placeholder="Zip" name="other_zip" >
                                     </div>
                                 </div>
                             </div>
@@ -404,30 +404,30 @@
                             </div>
                             <div class="mb-3">
                                 <label class="form-label">Company Name:</label>
-                                <input type="text" class="form-control" placeholder="Name" name="company_name" required>
+                                <input type="text" class="form-control" placeholder="Name" name="company_name" >
                             </div>
                             <div class="mb-3">
                                 <label class="form-label">Address:</label>
-                                <input type="text" class="form-control" placeholder="Address" name="company_address" required>
+                                <input type="text" class="form-control" placeholder="Address" name="company_address" >
                             </div>
                             <div class="mb-3">
                                 <label class="form-label">License #:</label>
-                                <input type="text" class="form-control" placeholder="License #" name="company_license" required>
+                                <input type="text" class="form-control" placeholder="License #" name="company_license" >
                             </div>
                             <div class="mb-3">
                                 <label class="form-label">Phone #:</label>
-                                <input type="text" class="form-control" placeholder="Phone #" name="company_phone" required>
+                                <input type="text" class="form-control" placeholder="Phone #" name="company_phone" >
                             </div>
                             <div class="row d-flex align-items-center">
                                 <div class="col-md-6">
                                     <div class="mb-3">
                                         <label class="form-label">City:</label>
-                                        <input type="text" class="form-control col-md-3" placeholder="City" name="company_city" required>
+                                        <input type="text" class="form-control col-md-3" placeholder="City" name="company_city" >
                                     </div>
                                 </div>
                                 <div class="col-md-3">
                                     <div class="mb-3 mt-4">
-                                        <select class="form-select select2" name="company_state" required>
+                                        <select class="form-select select2" name="company_state" >
                                             <option value="" selected>Select State</option>
                                             <option value="Alabama">Alabama</option>
                                             <option value="Alaska">Alaska</option>
@@ -486,13 +486,13 @@
                                 <div class="col-md-3">
                                     <div class="mb-3">
                                         <label class="form-label">Zip:</label>
-                                        <input type="text" class="form-control" placeholder="Zip" name="company_zip" required>
+                                        <input type="text" class="form-control" placeholder="Zip" name="company_zip" >
                                     </div>
                                 </div>
                             </div>
                             <div class="mb-3">
                                 <label class="form-label">Has supplied materials or equipment, or performed work or services as follows:</label>
-                                <input type="text" class="form-control" placeholder="Services" name="company_services" required>
+                                <input type="text" class="form-control" placeholder="Services" name="company_services" >
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-6 col-lg-6">
@@ -501,18 +501,18 @@
                             </div>
                             <div class="mb-3">
                                 <label class="form-label">Address:</label>
-                                <input type="text" class="form-control" placeholder="Address" name="property_address" required>
+                                <input type="text" class="form-control" placeholder="Address" name="property_address" >
                             </div>
                             <div class="row d-flex align-items-center">
                                 <div class="col-md-6">
                                     <div class="mb-3">
                                         <label class="form-label">City:</label>
-                                        <input type="text" class="form-control col-md-3" placeholder="City" name="property_city" required>
+                                        <input type="text" class="form-control col-md-3" placeholder="City" name="property_city" >
                                     </div>
                                 </div>
                                 <div class="col-md-3">
                                     <div class="mb-3 mt-4">
-                                        <select class="form-select select2" name="property_state" required>
+                                        <select class="form-select select2" name="property_state" >
                                             <option value="" selected>Select State</option>
                                             <option value="Alabama">Alabama</option>
                                             <option value="Alaska">Alaska</option>
@@ -571,17 +571,17 @@
                                 <div class="col-md-3">
                                     <div class="mb-3">
                                         <label class="form-label">Zip:</label>
-                                        <input type="text" class="form-control" placeholder="Zip" name="property_zip" required>
+                                        <input type="text" class="form-control" placeholder="Zip" name="property_zip" >
                                     </div>
                                 </div>
                             </div>
                             <div class="mb-3">
                                 <label class="form-label">APN / Description:</label>
-                                <input type="text" class="form-control" placeholder="APN / Description" name="property_apn" required>
+                                <input type="text" class="form-control" placeholder="APN / Description" name="property_apn" >
                             </div>
                             <div class="mb-3">
                                 <label class="form-label">In the Amount of:</label>
-                                <input type="text" class="form-control" placeholder="In the Amount of" name="amount_of" required>
+                                <input type="text" class="form-control" placeholder="In the Amount of" name="amount_of" >
                                 <small>This is an estimated amount, and is not alimitation of claimant’s final amount</small>
                             </div>
                         </div>
@@ -591,30 +591,30 @@
                             </div>
                             <div class="mb-3">
                                 <label class="form-label">Company Name:</label>
-                                <input type="text" class="form-control" placeholder="Name" name="contract_name" required>
+                                <input type="text" class="form-control" placeholder="Name" name="contract_name" >
                             </div>
                             <div class="mb-3">
                                 <label class="form-label">Address:</label>
-                                <input type="text" class="form-control" placeholder="Address" name="contract_address" required>
+                                <input type="text" class="form-control" placeholder="Address" name="contract_address" >
                             </div>
                             <div class="mb-3">
                                 <label class="form-label">License #:</label>
-                                <input type="text" class="form-control" placeholder="License #" name="contract_license" required>
+                                <input type="text" class="form-control" placeholder="License #" name="contract_license" >
                             </div>
                             <div class="mb-3">
                                 <label class="form-label">Phone #:</label>
-                                <input type="text" class="form-control" placeholder="Phone #" name="contract_phone" required>
+                                <input type="text" class="form-control" placeholder="Phone #" name="contract_phone" >
                             </div>
                             <div class="row d-flex align-items-center">
                                 <div class="col-md-6">
                                     <div class="mb-3">
                                         <label class="form-label">City:</label>
-                                        <input type="text" class="form-control col-md-3" placeholder="City" name="contract_city" required>
+                                        <input type="text" class="form-control col-md-3" placeholder="City" name="contract_city" >
                                     </div>
                                 </div>
                                 <div class="col-md-3">
                                     <div class="mb-3 mt-4">
-                                        <select class="form-select select2" name="contract_state" required>
+                                        <select class="form-select select2" name="contract_state" >
                                             <option value="" selected>Select State</option>
                                             <option value="Alabama">Alabama</option>
                                             <option value="Alaska">Alaska</option>
@@ -673,7 +673,7 @@
                                 <div class="col-md-3">
                                     <div class="mb-3">
                                         <label class="form-label">Zip:</label>
-                                        <input type="text" class="form-control" placeholder="Zip" name="contract_zip" required>
+                                        <input type="text" class="form-control" placeholder="Zip" name="contract_zip" >
                                     </div>
                                 </div>
                             </div>
@@ -683,29 +683,29 @@
                     <div class="row mt-3">
                         <h5>PROOF OF SERVICE AFFIDAVIT (Pursuant to California Civil Code §8106)</h5>
                         <p>I,
-                            <input type="text" name="prof_provider_name" required>
+                            <input type="text" name="prof_provider_name" >
                             declare that I served copies of the above Preliminary Notice for Private Works by:
                         </p>
 
                         <p>
-                            <input type="checkbox" name="personal_delivery_status" required>
-                            <input type="text" placeholder="Name/Title" name="prof_name" required> at
-                            <input type="text" placeholder="Address" name="prof_address" required> on
-                            <input type="date" placeholder="Date" name="prof_date" required> on
-                            <input type="time" placeholder="Time" name="prof_time" required> on
+                            <input type="checkbox" name="personal_delivery_status" >
+                            <input type="text" placeholder="Name/Title" name="prof_name" > at
+                            <input type="text" placeholder="Address" name="prof_address" > on
+                            <input type="date" placeholder="Date" name="prof_date" > on
+                            <input type="time" placeholder="Time" name="prof_time" > on
                         </p>
                         <p>
-                            <input type="checkbox" name="personal_delivery_status_2" required>
-                            <input type="text" placeholder="Name/Title" name="prof_name_2" required> at
-                            <input type="text" placeholder="Address" name="prof_address_2" required> on
-                            <input type="date" placeholder="Date" name="prof_date_2" required> on
-                            <input type="time" placeholder="Time" name="prof_time_2" required> on
+                            <input type="checkbox" name="personal_delivery_status_2" >
+                            <input type="text" placeholder="Name/Title" name="prof_name_2" > at
+                            <input type="text" placeholder="Address" name="prof_address_2" > on
+                            <input type="date" placeholder="Date" name="prof_date_2" > on
+                            <input type="time" placeholder="Time" name="prof_time_2" > on
                         </p>
                         <p>
-                            <input type="checkbox" name="pursuant_status" required>
+                            <input type="checkbox" name="pursuant_status" >
                             Pursuant to California Civil Code §8110, via Registered or Certified Mail, Express Mail, or overnight delivery by an express service carrier to each of the parties and
                             respective addresses as listed above on
-                            <input type="text" name="pursuant" required>
+                            <input type="text" name="pursuant" >
                         </p>
                     </div>
 
@@ -713,7 +713,7 @@
                         <h4>I declare under penalty of perjury that the foregoing is true and correct.</h4>
                         <div class="col-md-6 mb-3">
                             <label class="form-label">Signed Date:</label>
-                            <input type="date" class="form-control" placeholder="Signed Date" name="signed_date" required>
+                            <input type="date" class="form-control" placeholder="Signed Date" name="signed_date" >
                         </div>
                     </div>
 
@@ -746,19 +746,19 @@
     <script src="{{ asset('assets/js/signature_pad.js') }}"></script>
 
     <script>
-        $( "form" ).validate();
+        //$( "form" ).validate();
 
         $(document).ready(function() {
             $('.select2').select2();
         });
 
-        $("form").submit(function (e) {
-            if(signaturePad.isEmpty()){
-                alert("Please sign the document");
-                e.preventDefault();
-                return false;
-            }
-        });
+        ///$("form").submit(function (e) {
+           /// if(signaturePad.isEmpty()){
+              ///  alert("Please sign the document");
+                ///e.preventDefault();
+                ///return false;
+            ///}
+        ///});
     </script>
 
     <script type="text/javascript">

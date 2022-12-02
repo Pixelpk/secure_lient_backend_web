@@ -198,7 +198,7 @@ class EstimateController extends Controller
                     'rate' => $item->rate,
                     'qty' => $item->qty,
                     'tax' => $item->tax,
-                    'total' => $item->total
+                    'total' => $item->total ?? 0
                 ]);
             }
 

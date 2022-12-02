@@ -65,7 +65,9 @@ class SendFormController extends Controller
 
     public function form1(Request $request, $user_id)
     {
-        if($request->isMethod('get')){
+
+        if($request->isMethod('get'))
+        {
             return view('Forms.caPreliminaryNotice');
         }else{
             // dd($request->all());
@@ -107,6 +109,7 @@ class SendFormController extends Controller
 
     public function form1Data(Request $request, $form_no)
     {
+
         $form1 = CaPreliminaryNoticeFill::where('form_no', $form_no)->first();
         return view('Forms.GetcaPreliminaryNotice', compact('form1'));
     }
@@ -153,6 +156,7 @@ class SendFormController extends Controller
 
     public function form2(Request $request, $user_id)
     {
+        // dd('asd');
         if($request->isMethod('get')){
             return view('Forms.ConditionalWaiverAndReleaseOnFinalPayment');
         }else{
@@ -195,12 +199,14 @@ class SendFormController extends Controller
 
     public function form2Data(Request $request, $form_no)
     {
+
         $form2 = ConditionalWaiverAndReleaseOnFinalPaymentFill::where('form_no', $form_no)->first();
         return view('Forms.GetConditionalWaiverAndReleaseOnFinalPayment', compact('form2'));
     }
 
     public function editForm2Data(Request $request, $form_no)
     {
+
         if($request->isMethod('get')){
             $form2 = ConditionalWaiverAndReleaseOnFinalPaymentFill::where('form_no', $form_no)->first();
             return view('Forms.EditConditionalWaiverAndReleaseOnFinalPayment', compact('form2'));
@@ -241,6 +247,7 @@ class SendFormController extends Controller
 
     public function form3(Request $request, $user_id)
     {
+
         if($request->isMethod('get')){
             return view('Forms.ConditionalWaiverAndReleaseOnProgressPayment');
         }else{
@@ -283,6 +290,7 @@ class SendFormController extends Controller
 
     public function form3Data(Request $request, $form_no)
     {
+
         $form3 = ConditionalWaiverAndReleaseOnProgressPaymentFill::where('form_no', $form_no)->first();
         return view('Forms.GetConditionalWaiverAndReleaseOnProgressPayment', compact('form3'));
     }
