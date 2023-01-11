@@ -159,7 +159,7 @@
                     </div>
 
                     <div class="mt-3 text-end">
-                        <button type="submit" id="submit_btn" class="btn btn-success btn-lg">Save</button>
+                        <button type="submit" id="submit_btn" class="btn btn-success btn-lg">Send</button>
                         <button type="reset" class="btn btn-danger btn-lg">Clear</button>
                     </div>
 
