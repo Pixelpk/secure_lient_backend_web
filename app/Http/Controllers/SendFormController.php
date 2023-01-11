@@ -90,7 +90,7 @@ class SendFormController extends Controller
                 $emailData['email'] = $request->email;
                 $emailData['user'] = $user;
                 $emailData['form_name'] = $request->form_name;
-
+                $emailData['company_name'] = $request->company_name;
                 $emailData['form_no'] = $form_no;
                 $emailData['type'] = '-form1/';
                 

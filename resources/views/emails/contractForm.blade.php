@@ -22,7 +22,7 @@
 <body>
 
     <h1>{{ $data['form_name']}}</h1>
-
+      @if(isset($data['company_name']))<p>{{ $data['company_name'] }}</p>@endif
     {{-- <p>Contract against you filled by {{ $data['user']->name }}.</p> --}}
 
     <p>{{ date("d-M-Y") }}</p>
