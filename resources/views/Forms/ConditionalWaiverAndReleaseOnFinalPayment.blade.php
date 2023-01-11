@@ -118,6 +118,8 @@
                         <label class="col-sm-4 col-form-label">This document does not affect any of the following:</label>
                         <div class="col-sm-8">
                             <input type="text" class="form-control" name="document_effect" >
+                            <input type="hidden" class="form-control" name="form_name" value="CONDITIONAL WAIVER AND RELEASE ON FINAL PAYMENT" >
+
                         </div>
                     </div>
                     <div class="row mb-3">

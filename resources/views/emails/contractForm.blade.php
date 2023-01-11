@@ -21,9 +21,9 @@
 
 <body>
 
-    <h1>Lies Contract Form</h1>
+    <h1>{{ $data['form_name']}}</h1>
 
-    <p>Contract against you filled by {{ $data['user']->name }}.</p>
+    {{-- <p>Contract against you filled by {{ $data['user']->name }}.</p> --}}
 
     <p>{{ date("d-M-Y") }}</p>
 

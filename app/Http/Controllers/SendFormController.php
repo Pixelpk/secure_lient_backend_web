@@ -65,12 +65,11 @@ class SendFormController extends Controller
 
     public function form1(Request $request, $user_id)
     {
-
         if($request->isMethod('get'))
         {
             return view('Forms.caPreliminaryNotice');
         }else{
-            // dd($request->all());
+         
             $form_no = mt_rand(100000, 999999);
             $mobile = $request->mobile;
             $image = $request->signature;
@@ -90,8 +89,11 @@ class SendFormController extends Controller
                 $user = User::find($user_id);
                 $emailData['email'] = $request->email;
                 $emailData['user'] = $user;
+                $emailData['form_name'] = $request->form_name;
+
                 $emailData['form_no'] = $form_no;
                 $emailData['type'] = '-form1/';
+                
                 $this->email($emailData);
                 $post_data = [];
                 $post_data['messages'][] = [
@@ -156,7 +158,6 @@ class SendFormController extends Controller
 
     public function form2(Request $request, $user_id)
     {
-        // dd('asd');
         if($request->isMethod('get')){
             return view('Forms.ConditionalWaiverAndReleaseOnFinalPayment');
         }else{
@@ -180,6 +181,7 @@ class SendFormController extends Controller
                 $user = User::find($user_id);
                 $emailData['email'] = $request->email;
                 $emailData['user'] = $user;
+                $emailData['form_name'] = $request->form_name;
                 $emailData['form_no'] = $form_no;
                 $emailData['type'] = '-form2/';
                 $this->email($emailData);
@@ -272,6 +274,7 @@ class SendFormController extends Controller
                 $emailData['email'] = $request->email;
                 $emailData['user'] = $user;
                 $emailData['form_no'] = $form_no;
+                $emailData['form_name'] = $request->form_name;
                 $emailData['type'] = '-form3/';
                 $this->email($emailData);
                 $post_data = [];
@@ -361,6 +364,7 @@ class SendFormController extends Controller
                 $emailData['email'] = $request->email;
                 $emailData['user'] = $user;
                 $emailData['form_no'] = $form_no;
+                $emailData['form_name'] = $request->form_name;
                 $emailData['type'] = '-form4/';
                 $this->email($emailData);
                 $post_data = [];
@@ -407,6 +411,7 @@ class SendFormController extends Controller
                 $emailData['email'] = $getForm4->email;
                 $emailData['user'] = $user;
                 $emailData['form_no'] = $getForm4->form_no;
+                $emailData['form_name'] = $request->form_name;
                 $emailData['type'] = '-form4/';
                 $this->email($emailData);
                 $post_data = [];
@@ -449,6 +454,7 @@ class SendFormController extends Controller
                 $emailData['email'] = $request->email;
                 $emailData['user'] = $user;
                 $emailData['form_no'] = $form_no;
+                $emailData['form_name'] = $request->form_name;
                 $emailData['type'] = '-form1/';
                 $this->email($emailData);
                 $post_data = [];
@@ -537,6 +543,7 @@ class SendFormController extends Controller
                 $emailData['email'] = $request->email;
                 $emailData['user'] = $user;
                 $emailData['form_no'] = $form_no;
+                $emailData['form_name'] = $request->form_name;
                 $emailData['type'] = '-form6/';
                 $this->email($emailData);
                 $post_data = [];

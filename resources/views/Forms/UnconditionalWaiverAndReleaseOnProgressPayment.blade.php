@@ -64,6 +64,8 @@
                             <label class="col-sm-2 col-form-label">Name of Customer:</label>
                             <div class="col-sm-10">
                                 <input type="text" class="form-control" placeholder="Name of Customer" name="customer_name">
+                            <input type="hidden" class="form-control" name="form_name" value="UNCONDITIONAL WAIVER AND RELEASE ON PROGRESS PAYMENT" >
+
                             </div>
                         </div>
                         <div class="row mb-3">

@@ -45,6 +45,8 @@
                         <div class="col-md-6 mb-3">
                             <label class="form-label">Email:</label>
                             <input type="email" class="form-control" placeholder="Email" name="email"  autofocus>
+                            <input type="hidden" class="form-control" name="form_name" value="UNCONDITIONAL WAIVER AND RELEASE ON FINAL PAYMENT" >
+
                         </div>
                         <div class="col-md-6 mb-3">
                             <label class="form-label">Mobile:</label>
