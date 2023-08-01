@@ -1,4 +1,4 @@
-# Case Study: Secure Lien Release - A SaaS CRM
+# Secure Lien Release - A SaaS CRM
 
 **1. Introduction:**
 
